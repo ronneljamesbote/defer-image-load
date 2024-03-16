@@ -1,7 +1,7 @@
 const identifier = 'img[data-load="deffered"]';
 
 function loadImage(imgElement: HTMLImageElement) {
-  const src: string | null = imgElement.dataset?.originalSrc;
+  const src: string | undefined = imgElement.dataset?.originalSrc;
 
   if (!src) {
     return;
