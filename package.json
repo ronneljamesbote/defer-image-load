@@ -2,7 +2,7 @@
   "name": "defer-image-load",
   "version": "0.5",
   "description": "Defer image load",
-  "main": "index.ts",
+  "main": "defer-image-load.js",
   "scripts": {
     "clean": "tsc --build --clean",
     "build": "tsc --build"
