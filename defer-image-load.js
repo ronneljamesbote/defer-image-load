@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const identifier = 'img[data-load="deffered"]';
 function loadImage(imgElement) {
     var _a;
@@ -14,7 +12,7 @@ function loadImage(imgElement) {
         mock = null;
     };
 }
-exports.default = {
+export default {
     init: function () {
         document
             .querySelectorAll(identifier)
