@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "noImplicitAny": true,
-    "noEmitOnError": false,
-    "removeComments": true,
-    "sourceMap": true,
-    "module": "amd",
-    "target": "es5",
-    "rootDir": "./src",
-    "outFile": "defer-image-load.js"
+    "skipLibCheck": true
   }
 }
