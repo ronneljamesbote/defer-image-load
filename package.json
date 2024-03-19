@@ -1,6 +1,6 @@
 {
     "name": "defer-image-load",
-    "version": "0.5",
+    "version": "1.0.0",
     "description": "Defer image load",
     "type": "module",
     "main": "dist/index.js",
