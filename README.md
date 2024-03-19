@@ -2,16 +2,20 @@
 
 ## Usage
 
+```js
+import deferImageLoad from 'defer-image-load'
+
+deferImageLoad('[data-deferred-src]')
+```
+
 ```html
 <img
-  src="https://site/img/low-quality-image.jpg"
-  data-original-src="https://site/real-image.jpg"
-  data-load="deferred"
+    src="https://site/img/low-quality-image.jpg"
+    data-deferred-src="https://site/real-image.jpg"
 />
 ```
 
 Required fields
 
 1. src - low quality image source
-2. data-original-src - real image source
-3. data-load - should always be deferred
+2. data-deferred-src - real image source
