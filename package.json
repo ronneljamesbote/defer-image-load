@@ -1,15 +1,23 @@
 {
-  "name": "defer-image-load",
-  "version": "0.5",
-  "description": "Defer image load",
-  "main": "defer-image-load.js",
-  "scripts": {
-    "clean": "tsc --build --clean",
-    "build": "tsc --build"
-  },
-  "author": "Ronnel James Bote",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^5.4.2"
-  }
+    "name": "defer-image-load",
+    "version": "0.5",
+    "description": "Defer image load",
+    "type": "module",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "author": "Ronnel James Bote",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@typescript-eslint/eslint-plugin": "^7.3.1",
+        "@typescript-eslint/parser": "^7.3.1",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.2.5",
+        "rollup": "^4.13.0",
+        "typescript": "^5.4.2",
+        "typescript-eslint": "^7.3.1"
+    }
 }
